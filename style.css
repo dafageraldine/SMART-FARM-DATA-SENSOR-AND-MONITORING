@@ -1,0 +1,38 @@
+body { margin: 0; }
+
+.container {
+  position: center;
+  width: 110%;
+}
+
+/* Make the image responsive */
+.container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url('farmm.jpg');
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container p{
+  padding-top: 200px;
+}
+
+.container .button{
+  margin-left: 535px;
+}
